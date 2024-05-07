@@ -6,6 +6,7 @@ import  Lifecycle from './Lifecycle'
 import  List from './List'
 import  Keys from './Keys'
 import  ConditionalRendering from './ConditionalRendering'
+import  Style from './Style'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <List />
       <Keys />
       <ConditionalRendering />
+      <Style />
     </div>
   );
 }
