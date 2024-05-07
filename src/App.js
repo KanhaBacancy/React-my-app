@@ -5,6 +5,7 @@ import Greet from './Greet';
 import  Lifecycle from './Lifecycle'
 import  List from './List'
 import  Keys from './Keys'
+import  ConditionalRendering from './ConditionalRendering'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Lifecycle />
       <List />
       <Keys />
+      <ConditionalRendering />
     </div>
   );
 }
