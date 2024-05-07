@@ -1,5 +1,3 @@
-// write welcome message with props in this file
-
 import React from 'react';
 
 function Welcome(props) {

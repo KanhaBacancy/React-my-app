@@ -8,6 +8,7 @@ import  Keys from './Keys'
 import  ConditionalRendering from './ConditionalRendering'
 import  Style from './Style'
 import  Welcome from './Welcome'
+import  StateExample from './StateExample'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <ConditionalRendering />
       <Style />
       <Welcome name="kanha" />
+      <StateExample />
     </div>
   );
 }
