@@ -11,6 +11,8 @@ import  Welcome from './Welcome'
 import  StateExample from './StateExample'
 import  Hook from './Hook'
 import  HookEffect from './HookEffect'
+import  CounterComponent from './CounterComponent'
+import  useCounter from './useCounter'
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
       <StateExample />
       <Hook />
       <HookEffect />
+      <CounterComponent />
     </div>
   );
 }
