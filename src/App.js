@@ -16,6 +16,7 @@ import  Form from './Form'
 import  FormFunction from './FormFunction'
 import  Post from './Post'
 import  HttpPost from './HttpPost'
+import  Layout from './Layout'
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
       <FormFunction />
       <Post />
       <HttpPost />
+      <Layout />
+
       
     </div>
   );
