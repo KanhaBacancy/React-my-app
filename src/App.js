@@ -12,7 +12,7 @@ import  StateExample from './StateExample'
 import  Hook from './Hook'
 import  HookEffect from './HookEffect'
 import  CounterComponent from './CounterComponent'
-import  useCounter from './useCounter'
+import  Form from './Form'
 
 function App() {
   return (
@@ -29,6 +29,7 @@ function App() {
       <Hook />
       <HookEffect />
       <CounterComponent />
+      <Form />
     </div>
   );
 }
