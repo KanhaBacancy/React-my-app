@@ -10,6 +10,7 @@ import  Style from './Style'
 import  Welcome from './Welcome'
 import  StateExample from './StateExample'
 import  Hook from './Hook'
+import  HookEffect from './HookEffect'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Welcome name="kanha" />
       <StateExample />
       <Hook />
+      <HookEffect />
     </div>
   );
 }
