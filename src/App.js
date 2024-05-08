@@ -9,6 +9,7 @@ import  ConditionalRendering from './ConditionalRendering'
 import  Style from './Style'
 import  Welcome from './Welcome'
 import  StateExample from './StateExample'
+import  Hook from './Hook'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Style />
       <Welcome name="kanha" />
       <StateExample />
+      <Hook />
     </div>
   );
 }
