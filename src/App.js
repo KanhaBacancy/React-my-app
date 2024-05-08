@@ -15,6 +15,7 @@ import  CounterComponent from './CounterComponent'
 import  Form from './Form'
 import  FormFunction from './FormFunction'
 import  Post from './Post'
+import  HttpPost from './HttpPost'
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       <Form />
       <FormFunction />
       <Post />
+      <HttpPost />
       
     </div>
   );
