@@ -1,4 +1,3 @@
-// write handling form and user input in ReactJs
 
 import React, { Component } from 'react';
 

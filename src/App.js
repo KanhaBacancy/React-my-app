@@ -13,6 +13,7 @@ import  Hook from './Hook'
 import  HookEffect from './HookEffect'
 import  CounterComponent from './CounterComponent'
 import  Form from './Form'
+import  FormFunction from './FormFunction'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <HookEffect />
       <CounterComponent />
       <Form />
+      <FormFunction />
     </div>
   );
 }
